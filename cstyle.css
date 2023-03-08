@@ -1,0 +1,15 @@
+/* cstyle.css */
+body {
+  margin: 10px;
+  font-family: 'Arial', 'Segoe UI', 'Calibri', sans-serif;
+  font-size: 10pt;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #EEEEEE;
+
+}
+
+p, h1, h2, h3 {
+  margin: 6px; 
+}
+

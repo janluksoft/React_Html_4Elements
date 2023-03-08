@@ -1,0 +1,13 @@
+/*  */
+
+.div_main {
+  padding: 10px;
+  margin: 10px;
+  width: 260px;
+  border-radius: 6px;
+  border: 1px solid #9ccabb;
+  background-color: #c5efe2;
+  /* color:#57d95b; */
+  /*background-image: url('favicon.ico');
+  background-repeat: no-repeat; */
+}

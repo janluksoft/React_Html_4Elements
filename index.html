@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>React component in html file</title>
+
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+
+    <link HREF="cstyle.css" REL="stylesheet" TYPE="text/css">
+    <link HREF="react_panel.css" REL="stylesheet" TYPE="text/css">
+
+  </head>
+  <body>
+
+    <h2>React element Sindbad added to the html webPage</h2>
+    <p>
+      This is a regular html page. This page demonstrates using React with no build tooling. 
+      A React element was injected into it and duplicated 4 times with different attributes 
+      (colors).
+      You can see that React elements can be added gradually to old HTML pages and 
+      there is no need to rebuild the entire existing website from scratch.
+    </p>
+    <p>React elements are defined here without JSX syntax (Babel preprocessor) and 
+      in native mode, without compilation. The browser reads the index4.html file. 
+      This is the simplest way to use React elements.
+    </p>
+
+    <ul>
+      <li>React without NPM, without JSX syntax;</li>
+      <li>Project in files: 1 .html, 2 .css, 2 .js;</li>
+      <li>Defined one React Class_Component in different file react_panel.js;</li>
+      <li>Component used 5 times in different divs.</li> 
+      <li>Each instance has its own counter from [state full];</li>
+      <li>Adding React element to a regular html webpage;</li>
+      <li>React ver.18 sources are linked online from the internet;</li>
+      <li>Project written in Visual Studio Code;</li>
+    </ul>
+
+    <!-- We will put our React component inside this bellow div. -->
+
+    <table cellspacing="2" cellpadding="4">
+      <tr>
+        <td><div class="cReact_panel" data-cid="1" data-color="#85e2e2"></div></td>
+        <td><div class="cReact_panel" data-cid="2" data-color="#e5e2c2"></div></td>
+      </tr>
+      <tr>
+        <td><div class="cReact_panel" data-cid="3" data-color="#e5a2c2"></div></td>
+        <td><div class="cReact_panel" data-cid="4" data-color="#35e2e2"></div></td>
+      </tr>
+    </table>
+
+    <div id="React_container1"></div>
+
+    <!-- Load our React component. Below line must be on bottom, not in head-->
+    <script src="react_panel.js"></script>
+    <script src="react_service.js"></script>
+
+  </body>
+</html>
