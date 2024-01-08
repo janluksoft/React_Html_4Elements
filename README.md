@@ -1,4 +1,4 @@
-# Simple React elements in one .html file
+# Defined React element used in several places in the html file
 
 This is a regular html page. This page demonstrates using React with no build tooling. A React element was injected into it and duplicated 4 times with different attributes (colors). You can see that React elements can be added gradually to old HTML pages and there is no need to rebuild the entire existing website from scratch.
 
